@@ -1,0 +1,21 @@
+.header {
+  background: var(--gray-800);
+  padding: 1.25rem 0;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.header img {
+  height: 2rem;
+}
+
+.header h1 {
+  color: var(--gray-100);
+}
+
+@media (max-width: 768px) {
+  .header h1 {
+    display: none;
+  }
+}
